@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Make sure Linguist detects this correctly as mainly C code
+*.py linguist-detectable=false
+*.c linguist-detectable=true

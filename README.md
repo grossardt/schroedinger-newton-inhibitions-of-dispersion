@@ -90,8 +90,7 @@ The parameters for these Python scripts are:
 
 We solve the the time dependent Schrödinger-Newton equation
 
-$$ i\hbar \frac{\partial}{\partial t}\Psi(t,\vec x)=
-H[\Psi] \Psi(t,\vec x). $$
+$$ i\hbar \frac{\partial}{\partial t}\Psi(t,\vec x)= H[\Psi] \Psi(t,\vec x). $$
 
 Due to the nonlinearity of the equation, the Hamilton operator $H$ has a
 functional dependence on $\Psi$ and is given by

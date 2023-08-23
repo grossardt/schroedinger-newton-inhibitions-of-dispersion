@@ -95,12 +95,7 @@ $$ i\hbar \frac{\partial}{\partial t}\Psi(t,\vec x)= H[\Psi] \Psi(t,\vec x). $$
 Due to the nonlinearity of the equation, the Hamilton operator $H$ has a
 functional dependence on $\Psi$ and is given by
 
-$$ H[\Psi]=
--\frac{\hbar^2}{2m}\Delta
-+m \Phi[\Psi]
-=
--\frac{\hbar^2}{2m}\Delta
--Gm^2\int\frac{\vert\Psi(t,\vec y)\vert^2}{\Vert\vec x-\vec y\Vert}\,d^3y $$
+$$ H[\Psi] = -\frac{\hbar^2}{2m}\Delta + m \Phi[\Psi] = -\frac{\hbar^2}{2m}\Delta -Gm^2\int\frac{\vert\Psi(t,\vec y)\vert^2}{\Vert\vec x-\vec y\Vert}\,d^3y $$
 
 where $\Delta$ is the Laplace operator, $G$ is the gravitational constant, $m$
 the mass of the particle and $\Psi(t,\vec x)$ the wave function.

@@ -121,7 +121,7 @@ in which case the potential $\Phi$ is given by
 ```
 
 We define a spatial and temporal grid size $\Delta r$ and $\Delta t$ and use
-the index notation $\Psi^n_j = \Psi(j \Delta r, n \Delta t)$. We can write the
+the index notation $\Psi^n_j = \Psi(n \Delta t, j \Delta r)$. We can write the
 Schrödinger-Newton equation in a discretized way using Cayley's form
 
 ```math

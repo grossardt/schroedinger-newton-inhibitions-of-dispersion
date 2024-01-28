@@ -175,7 +175,7 @@ It takes the discretized form
 ```
 
 while the discretized form of the potential $\Phi$ is
-$\Phi^n_j = -4 \pi G m (\Delta r)^2 \, v^n_j$ with
+$\Phi^n_j = -4 \pi G m (\Delta r)^2 v^n_j$ with
 
 ```math
 v^n_j = \frac{1}{j} \sum_{i=0}^{j-1} \vert\Psi^n_i\vert^2 \, i^2

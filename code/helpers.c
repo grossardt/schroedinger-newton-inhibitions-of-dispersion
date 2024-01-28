@@ -135,9 +135,6 @@ void save_settings( const char *path, unsigned long t )
             fprintf ( fp, "movie cmd  : python movie.py %s %d %lu %lu \"%5Lg u, %Lg s\" %Lg %Lg %Lg %Lg\n", path, N, MAXT, SAVEEVERY, M, totaltime, W, M, DR, DT );
         else
             fprintf ( fp, "movie cmd  : python movie.py %s %d %lu %lu \"%5Lg u, %Lg s\"\n", path, N, MAXT, SAVEEVERY, M, totaltime );
-        #ifdef SALZMAN_ERROR
-        fprintf ( fp, "!Calculated with Salzman's error!\n" );
-        #endif
         #ifdef CHECK_OFF
         fprintf ( fp, "!results obtained in UNSAFE mode!\n" );
         #endif

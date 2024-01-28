@@ -210,7 +210,6 @@ b_j = \beta \, \frac{j-1}{j} \quad (0 < j \leq N-1),
 and the off-diagonal elements by
 
 ```math
-a_0 = \frac{1}{2} - 6 \beta - \gamma\, v_0 \,,\qquad
 a_j = \frac{1}{2} - 2 \beta - \gamma\, v_j  \quad (0 < j \leq N-1)
 ```
 

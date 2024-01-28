@@ -43,12 +43,7 @@
 /* prefactor: -i hbar/(8m) dt/(dr)^2 */
 static const long double complex pre_beta = MHBAROEI * I / M / DR / DR * DT;
 /* prefactors for diagonal elements b */
-#ifndef SALZMAN_ERROR
 static const long double complex b_pre = 0.5L - 2.0L * MHBAROEI * I / M / DR / DR * DT;
-#else
-/* if we want to reproduce Salzman's error */
-static const long double complex b_pre = 0.5L - MHBAROEI * I / M / DR / DR * DT;
-#endif
 static const long double complex bn_pre = 0.5L - 6.0L * MHBAROEI * I / M / DR / DR * DT;
 /* prefactor for gravitation potential: V = (-) i * (pi G / hbar) dt (m dr)^2 * coupling constant */
 static const long double complex v_pre = I * COUP * PIGOHBAR * DT * M * DR * M * DR;

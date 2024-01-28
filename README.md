@@ -197,21 +197,21 @@ a_1 & b_1 & c_1 & 0 & \cdots \\
 Using the shorthand notations
 
 ```math
-\beta = -\frac{i \hbar}{8 m} \, \frac{\Delta t}{(\Delta r)^2} \qquad,
+\beta = -\frac{i \hbar}{8 m} \, \frac{\Delta t}{(\Delta r)^2},\qquad
 \gamma = \frac{i \pi G}{\hbar} \, m^2 \, \Delta t \, (\Delta r)^2,
 ```
 
 the diagonal elements are given by
 
 ```math
-a_j = \beta \, \frac{j-1}{j} \quad (0 < j \leq N-1),
+b_j = \beta \, \frac{j-1}{j} \quad (0 < j \leq N-1),
 ```
 
 and the off-diagonal elements by
 
 ```math
-b_0 = \frac{1}{2} - 6 \beta - \gamma\, v_0 \,,\qquad
-b_j = \frac{1}{2} - 2 \beta - \gamma\, v_j  \quad (0 < j \leq N-1)
+a_0 = \frac{1}{2} - 6 \beta - \gamma\, v_0 \,,\qquad
+a_j = \frac{1}{2} - 2 \beta - \gamma\, v_j  \quad (0 < j \leq N-1)
 ```
 
 and
